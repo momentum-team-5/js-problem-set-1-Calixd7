@@ -44,12 +44,15 @@ function isEven(num) {
 // 6. Create a function called fahrenheitToCelsius that takes a
 // Fahrenheit temperature as an argument and returns the
 // temperature in Celsius.
-/*function fahrenheitToCelsius (f){
-    return(f - 32) × 5/9)
-}*/
+function fahrenheitToCelsius (f){
+    return((f - 32) * 5 / 9)
+}
 // 6. Create a function called celsiusToFahrenheit that takes a
 // Celsius temperature as an argument and returns the
 // temperature in Fahrenheit.
+function celsiusToFahrenheit (c){
+    return(c * (9 / 5) + 32)
+}
 
 // 7. Create a function called fahrenheitToKelvin that takes a
 // Fahrenheit temperature as an argument and returns the
@@ -57,7 +60,9 @@ function isEven(num) {
 // fahrenheitToCelsius function.
 // Absolute zero (0 K) is equivalent to −273.15 C.
 // 1 degree Kelvin equals 1 degree Celsius.
-
+function celsiusToFahrenheit (f) {
+    return ()
+}
 // 8. Create a function called lesser that takes two numbers as
 // arguments and returns the lesser of them. This function should
 // use an if/else statement.

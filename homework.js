@@ -59,13 +59,25 @@ function celsiusToFahrenheit (c){
 // temperature in Kelvin. This function must use your previous
 // fahrenheitToCelsius function.
 // Absolute zero (0 K) is equivalent to −273.15 C.
-// 1 degree Kelvin equals 1 degree Celsius.
-function celsiusToFahrenheit (f) {
-    return ()
-}
+// 1 degree Kelvin equals 1 degree Celsius. 
+function fahrenheitToKelvin(f) {
+   return ((f - 32) * (5/9) + 273.15)
+  }
+
+
 // 8. Create a function called lesser that takes two numbers as
 // arguments and returns the lesser of them. This function should
 // use an if/else statement.
+function lesser (num1 , num2) {
+  if 
+    (num1 < num2){
+        return num1; 
+      }  else {
+            return num2;
+        }
+    }
+
+
 
 // 9. Create a function called multigreeting that takes a name
 // and a language code and returns a version of "Hello, <name>!"
@@ -78,6 +90,25 @@ function celsiusToFahrenheit (f) {
 // eo - Saluton, <name>!
 //
 // If any other language code is used, return nothing.
+function multigreeting (name , lang) {
+  if 
+  ((lang === 'en')) {
+    return "Hello, " + name + "!"
+}
+if ((lang === 'es')) {
+    return "¡Hola, " + name + "!"
+}
+if ((lang === 'fr')) {
+    return "Bonjour, " + name + "!"
+}
+if ((lang === 'eo')) {
+    return "Saluton, " + name + "!"
+}
+else {
+    return
+}
+}
+
 
 // 10. The greatest common divisor (https://en.wikipedia.org/wiki/Greatest_common_divisor)
 // is the largest integer that, given two other integers, can be divided into them. For
